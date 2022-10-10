@@ -4,18 +4,16 @@
     padding: 0;
 
 }
-
 body {
     font-size: 1.2rem;
 }
-
 
 .grid {
     gap: 15px;
     border: 1px solid #aaa;
     position: absolute;
     background-color: #3f3f3f;
-    padding: 10px;
+    padding: 7px;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -23,11 +21,9 @@ body {
     width: 545px;
     display: grid;
     border-radius: 1.5% 1.5% 5% 5%;
-
 }
 
 .grid-input {
-
     width: 100%;
     border: none;
     font-size: 3rem;
@@ -41,74 +37,112 @@ body {
 }
 
 .b {
-    grid-template-columns: repeat(6,16%);
+    grid-template-columns: repeat(6, 16%);
     gap: 5px;
     display: grid;
     padding: 10px;
-    border-radius: 5px  !important;
-    
+    border-radius: 5px !important;
+
 }
 
 button {
     margin: 0.2px;
-    font-size:24px;
+    font-size: 24px;
     height: 80px;
-    width:80px;
+    width: 80px;
     background-color: #0b0d42;
     background-color: transparent;
     color: #fff;
     border-radius: 5px 5px 10px 10px;
     box-shadow: 0px black;
-    
+
 }
-button:hover{
-    height: 60px;
+
+button:hover {
+    margin: 0.2px;
+    font-size: 24px;
+    height: 80px;
+    width: 80px;
     background-color: #0b0d42;
     background-color: transparent;
     color: #fff;
+    border-radius: 5px 5px 10px 10px;
+    box-shadow: 0px black;
 }
-.artı{
+
+.artı {
     height: 100%;
     background-color: #424143;
     grid-row-end: span 2;
 }
-.inputcer{
-    width: 520px;
-    padding: 7px 10px 10px 10px ;
-    background: #dbd9d6;
-    border-radius: 5px;
-}
-.c1{
-background-color: #424143 ;
-}
-.c2{
-background-color: #878890;
 
+.artı:hover {
+    height: 101%;
+    background-color: #424143;
+    grid-row-end: span 2;
 }
-.c3{
-    background-color: #e65478;
-}
-.c4{
-    background-color: #71aca6;
-}
-.dikb{
+
+.dikb {
     height: 50px;
     margin-bottom: 10px;
 }
-.cer{
+
+.dikb:hover {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.inputcer {
+    width: 520px;
+    padding: 7px 10px 10px 10px;
+    background: #dbd9d6;
+    border-radius: 5px;
+}
+
+.c1 {
+    background-color: #424143;
+}
+
+.c1:hover {
+    background-color: #424143;
+}
+
+.c2 {
+    background-color: #878890;
+}
+
+.c2:hover {
+    background-color: #878890;
+}
+
+.c3 {
+    background-color: #e65478;
+}
+
+.c3:hover {
+    background-color: #e65478;
+}
+
+.c4 {
+    background-color: #71aca6;
+}
+
+.c4:hover {
+    background-color: #71aca6;
+}
+
+.dikb {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.cer {
     background-color: black;
     padding: 2px 3px 15px 3px;
     border-radius: 10px;
-    
-
 }
-.yazi{
+
+.yazi {
     font-family: Arial, Helvetica, sans-serif;
     color: #eef1f8;
-}
-.box4{
-    
-    width:300px;
-    height: 100px;
-    background-color: #71aca6;
 }
